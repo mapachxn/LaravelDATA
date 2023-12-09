@@ -159,28 +159,28 @@
 <br>
 <br>INSERT INTO users (username, password, status, profile, created_at)
 <br>VALUES
-<br>('MariaGomez23', 'P@ssw0rd1', true, 1, '2023-04-15 09:30:00'),
-<br>('JuanPerez85', 'SecurePass123', true, 2, '2023-07-22 14:15:00'),
-<br>('LuisaRodriguez', 'StrongP@ssw0rd', true, 1, '2023-02-10 11:45:00'),
-<br>('CarlosSanchez', 'SecretPass789', false, 2, '2023-09-30 17:20:00'),
-<br>('AnaLopez', 'AnaPass2023', true, 1, '2023-01-05 08:00:00');
+<br>('Dora123', '12345', true, 1, '2023-04-15 09:30:00'),
+<br>('Dominho333', 'Domi123', true, 2, '2023-07-22 14:15:00'),
+<br>('Maytec1', 'Portillo', true, 1, '2023-02-10 11:45:00'),
+<br>('Miguelinh0', 'Passw0rd', false, 2, '2023-09-30 17:20:00'),
+<br>('Mani12221', '2023', true, 1, '2023-01-05 08:00:00');
 <br>
 <br>
 <br>INSERT INTO userinfo (id, name, lastname, birthday, account_number, bank_name, account_type, account_holder, cvv,
 <br>month_c, year_c, gender, phone, photo, bio, RFC, email, status, created_at)
 <br>VALUES
-<br>(1, 'Maria', 'Gomez', '1990-03-20', '1234567890', 'BankA', 'Savings', 'Maria Gomez', 123, 04, 25, 'F', '555-123-4567',
-<br>'maria.jpg', 'Soy una persona amigable', 'MAR123456789', 'maria@example.com', true, '2023-04-15 09:30:00'),
-<br>(2, 'Juan', 'Perez', '1985-07-10', '9876543210', 'BankB', 'Checking', 'Juan Perez', 456, 07, 24, 'M', '555-987-6543',
-<br>'juan.jpg', 'Me gusta la música y los deportes', 'JUA987654321', 'juan@example.com', true, '2023-07-22 14:15:00'),
-<br>(3, 'Luisa', 'Rodriguez', '1980-02-03', '5555555555', 'BankC', 'Savings', 'Luisa Rodriguez', 789, 02, 21, 'F',
-<br>'555-555-5555', 'luisa.jpg', 'Amante de la naturaleza', 'LUI555555555', 'luisa@example.com', true, '2023-02-10
+<br>(1, 'Dora', 'Meldarejo', '1987-09-08', 'DORY1773882', 'BankB', 'Savings', 'Dora Meldarejo', 987, 07, 22, 'F', '226-553-8766',
+<br>'maria.jpg', 'Me encanta viajar por todo el mundo', 'DORYY287812A', 'doramelga@gmail.com', true, '2023-04-15 09:30:00'),
+<br>(2, 'Dominho', 'Ramón', '1999-28-04', '873732718', 'BancoA', 'Checking', 'Dominho Ramón', 876, 65, 56, 'M', '231-123-6754',
+<br>'dominho.jpg', 'Amo los lugares pacíficos y relajantes', 'RAMONCHINGJW21', 'ramoncito@example.com', true, '2023-07-22 17:30:00'),
+<br>(3, 'Mayte', 'Portilla', '2003-11-03', '9H1H2J01', 'BankC', 'Savings', 'Mayte Portilla', 877, 34, 22, 'F',
+<br>'223-688-0926', 'mayte.jpg', 'Amante de la tecnología y tradiciones', 'MAYER829223', 'maymay@example.com', true, '2023-07-10
 <br>11:45:00'),
-<br>(4, 'Carlos', 'Sanchez', '1995-09-15', '1111222233334444', 'BankD', 'Credit', 'Carlos Sanchez', 321, 09, 28, 'M',
-<br>'555-777-8888', 'carlos.jpg', 'Apasionado por la tecnología', 'CAR111122223', 'carlos@example.com', false, '2023-09-30
+<br>(4, 'Miguel', 'Juarez', '1992-01-25', 'MIKYFHI2992', 'BankD', 'Credit', 'Miguel Juarez', 223, 04, 28, 'M',
+<br>'254-322-1453', 'carlos.jpg', 'Me fascinan los restaurantes', 'MISFH299231', 'maiky@example.com', false, '2023-09-30
 <br>17:20:00'),
-<br>(5, 'Ana', 'Lopez', '1988-01-05', '4444333322221111', 'BankE', 'Checking', 'Ana Lopez', 654, 01, 23, 'F',
-<br>'555-999-0000', 'ana.jpg', 'Me encanta cocinar y viajar', 'ANA4444333322', 'ana@example.com', true, '2023-01-05
+<br>(5, 'Manuela', 'Perdomo', '1978-06-15', '784772663', 'BankA', 'Checking', 'Manuela Perdomo', 777, 67, 22, 'F',
+<br>'222-213-4554', 'manuela.jpg', 'Me encantan los lugares con naturaleza', 'MANI2938812', 'perdomomanue@example.com', true, '2023-04-07
 <br>08:00:00');
 <br>
 <br>
@@ -214,26 +214,26 @@
 <br>
 <br>INSERT INTO extraservices (name, typese, owner, phone, street, neighborhood, hours, price, created_at)
 <br>VALUES
-<br>('Lavandería "Lavado Limpio"', 1, 'María García', '555-123-4567', 'Calle Limpieza #123', 'Colonia Lavado', '9:00 AM -
+<br>('Lavandería "La Burbuja"', 1, 'Fernanda Medina', '231-766-4567', 'Calle Cleaning #123', 'Colonia Defrusia', '9:00 AM -
 <br>7:00 PM', '$7 por carga', '2023-04-15 09:30:00'),
-<br>('Supermercado "La Tienda Fresca"', 2, 'Juan Rodríguez', '555-987-6543', 'Avenida Abasto #456', 'Barrio Compras', '8:00
+<br>('Supermercado "Grupo Comercial Sequera"', 2, 'Emmanuel Castaneda', '226-213-2234', 'Avenida Zapata #456', 'Barrio Paraiso', '8:00
 <br>AM - 9:00 PM', 'Varía por producto', '2023-07-22 14:15:00'),
-<br>('Restaurante "Sabor Auténtico"', 3, 'Ana López', '555-555-5555', 'Calle Delicias #789', 'Zona Gastronómica', '11:00 AM
+<br>('Restaurante "Matambre"', 3, 'Romina Perez', '555-555-5555', 'Calle Yummy #789', 'Avenida Gastronómica', '11:00 AM
 <br>- 10:00 PM', '$15 por plato', '2023-02-10 11:45:00'),
-<br>('Gimnasio "Entrenamiento Pro"', 4, 'Luis Pérez', '555-777-8888', 'Avenida Deporte #321', 'Barrio Deportivo', '6:00 AM -
-<br>9:00 PM', '$40 por mes', '2023-09-30 17:20:00'),
-<br>('Farmacia "Salud al Instante"', 5, 'Laura Martínez', '555-111-2222', 'Calle Remedios #654', 'Colonia Salud', '8:00 AM -
+<br>('Gimnasio "Bulls Gym"', 4, 'Fernando Orozco', '555-654-0921', 'Avenida Exercise #321', 'Barrio Clown', '6:00 AM -
+<br>9:00 PM', '$140 por mes', '2023-09-30 17:20:00'),
+<br>('Farmacia "ISSSTE"', 5, 'Phineas Golwin', '312-224-6552', 'Calle Remedios #654', 'Colonia Salud', '8:00 AM -
 <br>8:00 PM', 'Varía por producto', '2023-01-05 08:00:00'),
 <br>('Cafetería "Café Aromático"', 6, 'Carlos Sánchez', '555-222-3333', 'Calle Café #987', 'Zona Cafeterías', '7:00 AM -
 <br>6:00 PM', '$3 por café', '2023-03-10 15:45:00'),
-<br>('Tintorería "Ropa Impecable"', 7, 'Andrea Fernández', '555-333-4444', 'Avenida Limpia #111', 'Barrio de la Ropa',
+<br>('Tintorería "Black Ink"', 7, 'Andrea Fernández', '233-134-6442', 'Avenida Limpia #111', 'Barrio Lavandero',
 <br>'10:00 AM - 7:00 PM', '$12 por prenda', '2023-05-20 12:30:00'),
 <br>('Centro de Salud "Vitalidad Médica"', 8, 'Daniel Ramírez', '555-444-5555', 'Calle de la Salud #444', 'Zona de Salud',
 <br>'8:00 AM - 5:00 PM', 'Varía por consulta', '2023-08-25 10:15:00'),
-<br>('Parque Recreativo "Diversión al Aire Libre"', 9, 'Carmen González', '555-999-0000', 'Avenida Recreación #777',
+<br>('Parque Recreativo "Diversión en el campo"', 9, 'Carmen González', '555-999-0000', 'Avenida Recreación #777',
 <br>'Colonia Diversión', '7:00 AM - 8:00 PM', 'Gratis', '2023-02-16 17:45:00'),
-<br>('Biblioteca "Lecturas enriquecedoras"', 10, 'Jorge Herrera', '555-666-7777', 'Calle de los Libros #333', 'Zona de
-<br>Lectura', '9:00 AM - 6:00 PM', 'Gratis', '2023-06-10 08:30:00');
+<br>('Biblioteca "Búho Negro"', 10, 'Jorge Herrera', '255-123-0988', 'Calle del Búho #222', 'Zona de
+<br>Lectura y Redacción', '9:00 AM - 6:00 PM', 'Gratis', '2023-06-10 08:30:00');
 <br>
 <br>
 <br>INSERT INTO units (street, neighborhood, extra_services, apartment, floors, locality, created_at)
@@ -254,9 +254,9 @@
 <br>VALUES
 <br>(1, '2023-04-15 09:30:00'),
 <br>(3, '2023-07-22 14:15:00'),
-<br>(7, '2023-02-10 11:45:00'),
-<br>(2, '2023-09-30 17:20:00'),
-<br>(9, '2023-01-05 08:00:00');
+<br>(7, '2023-02-10 12:30:00'),
+<br>(2, '2023-09-30 18:45:00'),
+<br>(9, '2023-01-05 08:15:00');
 <br>
 <br>
 <br>

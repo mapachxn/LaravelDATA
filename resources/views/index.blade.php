@@ -17,7 +17,7 @@
         <div class="row justify-content-center">
             <br><br>
             <div class="col-6">
-                <h1>Ejercicio y proyecto final para "Taller de Base de Datos"</h1>
+                <h1>Proyecto final de Base de Datos</h1>
             </div>
         </div>
         <div class="row justify-content-around">

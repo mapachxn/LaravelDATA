@@ -21,7 +21,7 @@
 
     <h1></h1>
     <div class="container text-center">
-        <h2>Consulta Relacionada 1 (UnitDetails)</h2>
+        <h2>Primer consulta relacionada (UnitDetails)</h2>
         <h3>Obtener detalles de unidades con información de apartamentos y servicios adicionales:</h3>
         <div class="row justify-content-center">
             <br><br>
